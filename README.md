@@ -1,3 +1,5 @@
+![Build & Test](https://github.com/DannyHinshaw/paw-array-kba/workflows/Build%20&%20Test/badge.svg)
+
 # paw-array-kba
 
 [Paw][paw] extension to handle KBA validation questions automatically for the user.
@@ -25,7 +27,9 @@ Built up from [Paw-TicketEvolutionXSignature](https://github.com/bryanjswift/Paw
 
 ## Use the Extension
 
-TODO:
+Insert the extension as a dynamic value in a field.
+
+![Insert extension as dynamic value](docs/use-the-force.png)
 
 ## Development
 
@@ -40,7 +44,7 @@ npm install
 Compiles the source files into the JavaScript which can be used by the Paw application.
 
 ```shell
-npm build
+npm run build
 ```
 
 ### Install
@@ -62,4 +66,4 @@ npm test
 
 This Paw Extension is released under the [MIT License](LICENSE). Feel free to fork, and modify!
 
-Copyright © 2019 Bryan J Swift
+Copyright © 2021 Danny Hinshaw

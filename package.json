@@ -6,7 +6,6 @@
   "homepage": "https://github.com/DannyHinshaw/paw-array-kba",
   "scripts": {
     "build": "gulp",
-    "build:watch": "tsc -w",
     "test": "jest"
   },
   "dependencies": {},
