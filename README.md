@@ -2,6 +2,8 @@
 
 # paw-array-kba
 
+TODO: Proper archiving for zipped releases
+
 [Paw][paw] extension to handle KBA validation questions automatically for the user.
 
 Built up from [Paw-TicketEvolutionXSignature](https://github.com/bryanjswift/Paw-TicketEvolutionXSignature).
