@@ -1,4 +1,4 @@
-# paw-arra-kba
+# paw-array-kba
 
 [Paw][paw] extension to handle KBA validation questions automatically for the user.
 
@@ -40,7 +40,7 @@ npm install
 Compiles the source files into the JavaScript which can be used by the Paw application.
 
 ```shell
-make build
+npm build
 ```
 
 ### Install
@@ -49,7 +49,7 @@ Moves the built files into the local "Application Support" directory for
 `com.array.Paw`.
 
 ```shell
-make install
+cp dist/ArrayKBA.js $HOME/Library/Containers/com.luckymarmot.Paw/Data/Library/Application\ Support/com.luckymarmot.Paw/Extensions/com.dannyhinshaw.PawExtensions.ArrayKBA
 ```
 
 ### Test

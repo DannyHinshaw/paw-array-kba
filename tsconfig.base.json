@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
     "outDir": "./dist",
-    "declaration": true,
+    "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
@@ -11,14 +12,13 @@
     "target": "es5",
     "lib": [],
     "types": [
-      "jest",
+      "@types/jest",
       "node"
     ],
     "typeRoots": [
       "src/global.d.ts"
     ],
     "strict": true,
-    "module": "commonjs",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "noImplicitReturns": true,
@@ -27,8 +27,6 @@
     "noUnusedLocals": false,
     "removeComments": true,
     "strictNullChecks": true,
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "sourceMap": true
+    "sourceMap": false
   }
 }

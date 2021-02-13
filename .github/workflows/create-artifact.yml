@@ -15,8 +15,9 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       - run: npm install
-      - run: make archive
-      - run: cp ArrayKBA.zip PAW-ArrayKBA.zip
+      - run: npm run build
+      - run: cp dist/ArrayKBA.js PAW-ArrayKBA.js
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -34,6 +35,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./PAW-ArrayKBA.zip
-          asset_name: PAW-ArrayKBA.zip
-          asset_content_type: application/zip
+          asset_path: ./PAW-ArrayKBA.js
+          asset_name: PAW-ArrayKBA.js

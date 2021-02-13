@@ -12,7 +12,7 @@ jobs:
       with:
         node-version: ${{ env.NODE_VERSION }}
     - run: npm install
-    - run: make build
+    - run: npm run build
   test:
     runs-on: ubuntu-latest
     needs: [build]
